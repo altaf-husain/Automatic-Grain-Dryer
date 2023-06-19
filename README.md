@@ -1,2 +1,2 @@
 # Pengering-Gabah
-Pengering gabah merupakan salah satu proyek ikon kelompok 6
+Proyek Akhir Mata Kuliah Instrumentasi dan Kontrol
