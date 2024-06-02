@@ -1,20 +1,18 @@
 ## Pengering-Gabah
-Proyek Akhir Mata Kuliah Instrumentasi dan Kontrol
-pengering ini menggunakan sensor load cell dan lampu sebagai alat pengeringnya yang dikontrol menggunakan arduino
-Konsepnya adalah ketika gabah dimasukan maka load cell akan menyimpan nilai awal kemudian lampu otomatis menyala lama kelamaan gabah akan mengering dan berat gabah semakin berkurang karena kadar air berkurang setelah berat gabah berkurang sebesar 30% maka lampu akan otomatis mati untuk menghentikan proses pengeringan gabah 
+This dryer uses a load cell sensor and a lamp as the drying device, controlled by an Arduino. The concept is that when the wet rice is placed into the dryer, the load cell will record the initial weight. The lamp will automatically turn on, and as the rice dries, its weight will decrease due to the reduction in moisture content. Once the rice weight decreases by 30%, the lamp will automatically turn off, stopping the drying process.
 
-projek ini bertujuan untuk mengatasi proses pengeringan gabah yang masih konvensional dengan cara di jemur menggunakan panas sinar matahari yang bergantung pada kondisi cuaca dan mudah terkena debu
+The objective of this project is to address the conventional method of drying rice, which involves sun drying and is dependent on weather conditions and prone to contamination by dust.
 
-## Prinsip Kerja
-1. **Memasukkan Gabah Basah**: Gabah basah dimasukkan ke dalam alat.
-2. **Pengukuran Berat Awal**: Sensor load cell akan mengukur dan menyimpan nilai berat awal gabah.
-3. **Proses Pengeringan**: Lampu pijar menyala dan memulai proses pengeringan.
-4. **Pengurangan Berat 56%**: Berdasarkan penelitian, ketika berat gabah berkurang sebesar 56%, lampu pijar akan otomatis mati dan proses pengeringan dihentikan.
-5. **Pemantauan Suhu**: Layar LCD digunakan untuk memonitor suhu selama proses pengeringan.
+## Working Principle
+1. **Inserting Wet Rice**: Wet rice is placed into the device.
+2. **Initial Weight Measurement**: The load cell sensor measures and records the initial weight of the rice.
+3. **Drying Process**: The incandescent lamp turns on and starts the drying process.
+4. **30% Weight Reduction**: Based on research, when the rice weight decreases by 30%, the lamp will automatically turn off, stopping the drying process.
+5. **Temperature Monitoring**: An LCD screen is used to monitor the temperature during the drying process.
 
-## Komponen yang Digunakan
-- **Arduino Uno**: Sebagai mikrocontroller utama untuk mengendalikan seluruh proses.
-- **Sensor Load Cell**: Untuk mengukur berat awal dan mengawasi pengurangan berat gabah.
-- **Lampu Pijar**: Sebagai sumber panas untuk mengeringkan gabah.
-- **Relay**: Untuk mengendalikan nyala/matinya lampu pijar berdasarkan input dari Arduino.
-- **Layar LCD**: Untuk menampilkan informasi suhu dan status pengeringan.
+## Components Used
+- **Arduino Uno**: The main microcontroller used to control the entire process.
+- **Load Cell Sensor**: To measure the initial weight and monitor the reduction in rice weight.
+- **Incandescent Lamp**: Serves as the heat source for drying the rice.
+- **Relay**: Controls the on/off state of the lamp based on input from the Arduino.
+- **LCD Screen**: Displays information about temperature and the drying status.
