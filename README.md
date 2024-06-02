@@ -1,4 +1,4 @@
-## Grain Dryer
+# Automatic Grain Dryer System Based on Load Cell Sensor
 <p align="center">
   <img src="https://github.com/arutafusain/Pengering-Gabah/assets/98148350/81441ed1-14d4-4b12-857f-31be743a43e4" width="400" />
 </p>
@@ -15,18 +15,28 @@ This project was designed using SketchUp software, and this is a 3D design view 
   <img src="https://github.com/arutafusain/Pengering-Gabah/assets/98148350/1d62e088-d309-40b7-a592-3158001709b3" width="400" />
 </p>
 
-## Working Principle
-1. **Inserting Wet Grain**: Wet grain is placed into the device.
-2. **Initial Weight Measurement**: The load cell sensor measures and records the initial weight of the grain.
-3. **Drying Process**: The incandescent lamp turns on and starts the drying process.
-4. **30% Weight Reduction**: Based on research, when the grain weight decreases by 83.12%, the lamp will automatically turn off, stopping the drying process.
-5. **Temperature Monitoring**: An LCD screen is used to monitor the temperature during the drying process.
+## Key Features
+- **Automatic Drying Process**: The system automatically starts the drying process when wet grain is loaded.
+- **Load Cell Sensor Integration**: Measures and stores the initial weight of the grain and continuously monitors the weight reduction during the drying process.
+- **Drying Completion Detection**: Based on research, the drying process stops when the grain weight decreases by 83.12%.
+- **Temperature and Humidity Monitoring**: Utilizes a DHT22 sensor to monitor and display the temperature and humidity levels.
+- **User Interface**: An LCD screen provides real-time information on the drying status and environmental conditions.
+- **Exhaust Fan Control**: Manages the exhaust fan to control the airflow and improve the drying efficiency.
+- **Safety and Efficiency**: Ensures the drying process stops at the right time to prevent over-drying or under-drying.
 
-## Components Used
-- **Arduino Uno**: The main microcontroller used to control the entire process.
-- **Load Cell Sensor**: To measure the initial weight and monitor the reduction in grain weight.
-- **Incandescent Lamp**: Serves as the heat source for drying the grain.
-- **Relay**: Controls the on/off state of the lamp based on input from the Arduino.
-- **LCD Screen**: Displays information about temperature and the drying status.
-- **DHT Sensor**:
-- **Fan**: 
+## Technologies Used
+- **Arduino Uno**: The main microcontroller for controlling the process.
+- **Load Cell with HX711 Module**: For measuring the initial and reduced weight of the grain.
+- **DHT22 Sensor**: For monitoring temperature and humidity.
+- **Relay**: For controlling the power to the incandescent lamp and exhaust fan.
+- **Incandescent Lamp**: Provides the heat necessary for drying the grain.
+- **Exhaust Fan**: Controls the airflow to aid the drying process.
+- **LCD Screen**: Displays real-time information on drying status, temperature, and humidity.
+
+## Working Principle
+1. **Inserting Wet Grain**: Wet grain is placed into the dryer.
+2. **Initial Weight Measurement**: The load cell sensor measures and stores the initial weight of the grain.
+3. **Drying Process**: The incandescent lamp turns on, and the exhaust fan starts to facilitate the drying process.
+4. **Monitoring Weight Reduction**: The load cell continuously monitors the weight of the grain.
+5. **Stopping Drying Process**: When the grain weight decreases by 83.12%, the relay turns off the incandescent lamp and stops the drying process.
+6. **Temperature and Humidity Monitoring**: The DHT22 sensor monitors and displays temperature and humidity levels throughout the process on the LCD screen.
