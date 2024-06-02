@@ -1,5 +1,5 @@
 ## Grain Dryer
-<p>
+<p align="center">
   <img src="https://github.com/arutafusain/Pengering-Gabah/assets/98148350/81441ed1-14d4-4b12-857f-31be743a43e4" width="400" />
 </p>
 
@@ -8,10 +8,10 @@ The objective of this project is to address the conventional method of drying ri
 This dryer uses a load cell sensor and a lamp as the drying device, controlled by an Arduino. The concept is that when the wet rice is placed into the dryer, the load cell will record the initial weight. The lamp will automatically turn on, and as the rice dries, its weight will decrease due to the reduction in moisture content. Once the rice weight decreases by 30%, the lamp will automatically turn off, stopping the drying process.
 
 This project was designed using SketchUp software, and this is a 3D design view of the grain dryer
-<p>
+<p align="center">
   <img src="https://github.com/arutafusain/Pengering-Gabah/assets/98148350/51ce58cf-2ddb-476e-b10b-0890a10e68c0" width="400" />
 </p>
-<p>
+<p align="center">
   <img src="https://github.com/arutafusain/Pengering-Gabah/assets/98148350/1d62e088-d309-40b7-a592-3158001709b3" width="400" />
 </p>
 
