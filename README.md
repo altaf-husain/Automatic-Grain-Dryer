@@ -1,13 +1,13 @@
 # Automatic Grain Dryer System Based on Load Cell Sensor
 <p align="center">
-  <img src="https://github.com/arutafusain/Pengering-Gabah/assets/98148350/81441ed1-14d4-4b12-857f-31be743a43e4" width="400" />
+  <img src="https://github.com/arutafusain/Pengering-Gabah/assets/98148350/81441ed1-14d4-4b12-857f-31be743a43e4" width="600" />
 </p>
 
-The objective of this project is to address the conventional method of drying rice, which involves sun drying and is dependent on weather conditions and prone to contamination by dust.
+The objective of this project is to address the conventional method of drying grain, which involves sun drying and is dependent on weather conditions and prone to contamination by dust.
 
-This dryer uses a load cell sensor and a lamp as the drying device, controlled by an Arduino. The concept is that when the wet rice is placed into the dryer, the load cell will record the initial weight. The lamp will automatically turn on, and as the rice dries, its weight will decrease due to the reduction in moisture content. Once the rice weight decreases by 83.12%, the lamp will automatically turn off, stopping the drying process.
+This dryer uses a load cell sensor and a lamp as the drying device, controlled by an Arduino. The concept is that when the wet grain is placed into the dryer, the load cell will record the initial weight. The lamp will automatically turn on, and as the grain dries, its weight will decrease due to the reduction in moisture content. Once the rice weight decreases by 83.12%, the lamp will automatically turn off, stopping the drying process.
 
-This project was designed using SketchUp software, and this is a 3D design view of the grain dryer
+This project was designed using SketchUp software, and this is a 3D design view and schematic diagram of the grain dryer
 <p align="center">
   <img src="https://github.com/arutafusain/Pengering-Gabah/assets/98148350/51ce58cf-2ddb-476e-b10b-0890a10e68c0" width="400" />
 </p>
